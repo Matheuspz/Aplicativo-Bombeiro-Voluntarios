@@ -17,8 +17,8 @@
                     <input type="text" name="" id="" placeholder="Digite seu email">
                     <hr>
                     <div class="row">
-                        <input type="password" name="" id="" placeholder="Digite sua senha">
-                        <ion-icon name="eye-outline" class="olho"></ion-icon>
+                        <input type="password" name="" id="id_password" placeholder="Digite sua senha">
+                        <ion-icon name="eye-off-outline" class="olho" id="togglePassword" onclick="togglePasswordVisibility()"></ion-icon>
                     </div>
                     <hr>
                 </div>
@@ -35,4 +35,5 @@
 </body>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="js/loginCadastro.js"></script>
 </html>
