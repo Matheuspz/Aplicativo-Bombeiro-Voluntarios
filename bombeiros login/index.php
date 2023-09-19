@@ -16,9 +16,11 @@
                 <div class="form-column">
                     <input type="text" name="" id="" placeholder="Digite seu email">
                     <hr>
-                    <input type="password" name="" id="" placeholder="Digite sua senha">
+                    <div class="row">
+                        <input type="password" name="" id="" placeholder="Digite sua senha">
+                        <ion-icon name="eye-outline" class="olho"></ion-icon>
+                    </div>
                     <hr>
-
                 </div>
                 <div class="form-row">
                     <div class="checkbox">
@@ -29,7 +31,8 @@
                 </div>
             </form>
         </div>
-
     </div>
 </body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
