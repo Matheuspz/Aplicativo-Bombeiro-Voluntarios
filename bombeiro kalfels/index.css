@@ -110,7 +110,7 @@ h1{
 ion-icon {
     font-size: 30px;
     position: absolute;
-    right: 10%;
+    right: 3%;
 }
 
 hr{
@@ -125,6 +125,7 @@ hr{
     justify-content: space-between;
     margin-top: 35px;
 }
+
 
 .btn{
     font-size: 20px;
@@ -154,3 +155,51 @@ hr{
 .checkbox label{
     color: #8EB1FF;
 }
+
+.row{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 750px){
+    .form-row{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .azul-claro{
+        left: 47%;
+    }
+    h1{
+        top: 20px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    h1{
+        top: 45px;
+    }
+    .azul-escuro{
+        width: 315px;
+        height: 80%;
+        margin-right: 13px;
+    }
+    .azul-escuro img{
+        display: none;
+    }
+    .azul-claro{
+        left: 7%;
+        width: 310px;
+        height: 100%;
+    }
+    .form-column input{
+        width: 250px;
+    }
+    .form-column{
+        margin-top: 0;
+    }
+
+}
+
+
+
