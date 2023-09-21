@@ -63,10 +63,14 @@ header img{
     margin-left: var(--header-img-margin);
 }
 
-header h1{
+header h1, #cellphone-only{
     font-size: 20px;
     color: #fff;
     margin-bottom: 30px;
+}
+
+#cellphone-only{
+    display: none;
 }
 
 main{
@@ -83,14 +87,53 @@ main{
 section{
     width: 500px;
     height: 200px;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+section button{
+    width: 310px;
+    height: 120px;
+    background-color: transparent;
+    border: 3px solid #1449BF;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: top .3s cubic-bezier(.17,.67,.65,.99);
+}
+section button::before{
+    position: absolute;
+    content: '';
+    inset: -1px;
+    top: 100%;
+    background-color: #09318B;
+    z-index: -1;
+    transition: top .3s cubic-bezier(.17,.67,.65,.99);
+}
+section button:hover{
+    color: #fff;
+}
+section button:hover::before{
+    top: -1px;
 }
 
 hr{
     width: 60%;
     height: 3px;
     background-color: #09318B;
+}
+
+@media screen and (max-width: 361px){
+    header img{
+        width: 100px;
+    }
+    header h1{
+        display: none;
+    }
+    #cellphone-only{
+        display: block;
+        font-size: 1.8rem;
+    }
 }

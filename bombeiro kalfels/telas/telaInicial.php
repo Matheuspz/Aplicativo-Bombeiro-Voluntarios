@@ -11,6 +11,7 @@
     <header>
         <img src="../img/logo_grande.png" alt="logo noar">
         <h1>Associação Humanitária de Busca Salvamento Aéreo e Resgate</h1>
+        <h1 id="cellphone-only">AHBSAR</h1>
     </header>
     <main>
         <section>
