@@ -15,7 +15,9 @@
     </header>
     <main>
         <section>
-            <button> Nova Ocorrência </button>
+            <a href="telaOcorrencia.php">
+                <button> Nova Ocorrência </button>
+            </a>
         </section>
         <hr>
         <section>
