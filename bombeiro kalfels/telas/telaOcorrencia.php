@@ -14,7 +14,168 @@
         <h1 id="cellphone-only">AHBSAR</h1>
     </header>
     <main>
-        <div class="corpo">
+
+        <form action="" class="form">
+            <section class="sec1">
+                <div class="clm">
+                    <label for="">Nome:</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="clm">
+                    <label for="">Sobrenome:</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="clm">
+                    <label for="">Idade:</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="clm">
+                    <label for="">Telefone:</label>
+                    <input type="text" name="" id="">
+                </div>
+                <div class="clm">
+                    <label for="">Sexo:</label>
+                    <div class="rw gender">
+                        <div class="rw">
+                            <input type="radio" name="teste" id="">
+                            <label for="">Homem</label>
+                        </div>
+                        <div class="rw">
+                            <input type="radio" name="teste" id="">
+                            <label for="">Mulher</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="clm">
+                    <label for="">CPF/RG:</label>
+                    <input type="text" name="" id="">
+                </div>
+            </section>
+
+            <section class="sec2">
+                <div class="clm aside1">
+                    <h2>Possui acompanhante?</h2>
+                    <div class="rw">
+                        <input type="radio" name="peido" id="acompanhanteSim">
+                        <label for="acompanhanteSim">Sim</label>
+                    </div>
+                    <div class="rw">
+                        <input type="radio" name="peido" id="acompanhanteNao">
+                        <label for="acompanhanteNao">Não</label>
+                    </div>
+                    <div id="formularioAcompanhante">
+                        <input type="text" name="nomeAcompanhante" id="nomeAcompanhante" placeholder="Nome acompanhante">
+                        <input type="text" name="idadeAcompanhante" id="idadeAcompanhante" placeholder="Idade acompanhante">
+                        <input type="text" name="foneAcompanhante" id="foneAcompanhante" placeholder="Fone acompanhante">
+                    </div>
+                    <br>
+                    <div class="clm">
+                        <label for="">Local da Ocorrência</label>
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
+
+                <div class="clm aside2">
+                    <h2>TIPO DE OCORRÊNCIA (PRÉ-HOSPITALAR) </h2>
+                    <div class="rw tiposDeDano">
+                        <div class="clm gap">
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Causada por animais</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Com meio de transporte</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Desmoronamento / Deslizamento</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Emergência médica</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Queda de Altura 2M</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Tentativa de Suicídio</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Queda própria altura</label>
+                            </div>
+                        </div>
+                        <div class="clm gap">
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Afogamento</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Agressão</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Atropelamento</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Choque Elétrico</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Desabamento</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Domêstico</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Esportiva</label>
+                            </div>
+                        </div>
+                        <div class="clm gap">
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Intoxicação</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Queda Bicicleta</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Queda Moto</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Queda Nível <2M</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Trabalho</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <label for="">Transferência</label>
+                            </div>
+                            <div class="rw gap">
+                                <input type="checkbox" name="" id="">
+                                <input type="text" name="" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <button class="avancar">SALVAR E AVANÇAR</button>
+        </form>
+
+
+        <!-- <div class="corpo">
             <img src="../img/corpo.png" alt="corpo">
             <div class="check-cabeca"></div>
 
@@ -44,7 +205,26 @@
 
             <div class="check-maoEsquerda"></div>
             <div class="check-maoDireita"></div>
-        </div>
+        </div> -->
     </main>
 </body>
+<script>
+    const acompanhanteSim = document.getElementById('acompanhanteSim');
+    const acompanhanteNao = document.getElementById('acompanhanteNao');
+    const formularioAcompanhante = document.getElementById('formularioAcompanhante');
+
+    acompanhanteSim.addEventListener('change', function () {
+        if (acompanhanteSim.checked) {
+            formularioAcompanhante.style.display = 'flex';
+        } else {
+            formularioAcompanhante.style.display = 'none';
+        }
+    });
+
+    acompanhanteNao.addEventListener('change', function () {
+        if (acompanhanteNao.checked) {
+            formularioAcompanhante.style.display = 'none';
+        }
+    });
+</script>
 </html>

@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <a href="telas/telaInicial.php">TESTE</a>
 
     <div class="azul-escuro">
         <img src="img/logo_grande.png" alt="logo bombeiros">
@@ -31,6 +30,8 @@
                     </div>
                     <input type="submit" value="ENTRAR" class="btn">
                 </div>
+                <a href="telas/telaInicial.php">TESTE</a>
+
             </form>
         </div>
     </div>

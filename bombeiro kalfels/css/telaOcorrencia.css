@@ -37,13 +37,8 @@ table {
 
 /* ESTILIZAÇÃO */
 
-body{
-    height: 100dvh;
-    overflow: hidden;
-}
-
 :root{
-    --header-h: 150px;
+    --header-h: 130px;
     --header-img-margin: 5%;
 }
 
@@ -67,6 +62,7 @@ header h1, #cellphone-only{
     font-size: 20px;
     color: #fff;
     margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 #cellphone-only{
@@ -84,7 +80,124 @@ main{
     justify-content: center;
 }
 
-.corpo{
+#formularioAcompanhante{
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #09318B;
+    padding: 20px;
+    position: absolute;
+    transition: all .3s linear;
+    left: calc(100% + 10px);
+    border-radius: 5px;
+}
+#formularioAcompanhante input{
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+#formularioAcompanhante input::placeholder {
+    color: #fff;
+    font-size: 14px;
+}
+
+input{
+    border-bottom: 1px solid #000;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15vmin;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.gender{
+    margin-top: 10px;
+    gap: 10px;
+}
+
+h2{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: bold
+}
+
+.sec1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.aside1{
+    gap: 15px;
+    position: relative;
+}
+
+.aside2{
+    text-align: center;
+    gap: 15px;
+}
+
+.gap{
+    gap: 10px;
+}
+
+.tiposDeDano{
+    gap: 20px;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clm{
+    display: flex;
+    flex-direction: column;
+}
+
+.rw{
+    display: flex;
+    flex-direction: row;
+}
+
+.avancar{
+    bottom: -90px;
+    right: 0px;
+    position: absolute;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 3px solid #1449BF;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: top .3s cubic-bezier(.17,.67,.65,.99);
+}
+.avancar::before{
+    position: absolute;
+    content: '';
+    inset: -1px;
+    top: 100%;
+    background-color: #09318B;
+    z-index: -1;
+    transition: top .3s cubic-bezier(.17,.67,.65,.99);
+}
+.avancar:hover{
+    color: #fff;
+}
+.avancar:hover::before{
+    top: -1px;
+}
+
+hr{
+    width: 60%;
+    height: 3px;
+    background-color: #09318B;
+}
+
+/*.corpo{
     position: relative;
     border: 1px solid red;
     width: 300px;
@@ -241,13 +354,7 @@ main{
 .check-maoDireita{
     right: 63px;
 }
-
-
-
-
-
-
-
+*/
 
 @media screen and (max-width: 361px){
     header img{
