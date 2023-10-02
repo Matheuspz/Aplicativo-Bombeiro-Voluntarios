@@ -171,7 +171,204 @@
                     </div>
                 </div>
             </section>
-            <button class="avancar">SALVAR E AVANÇAR</button>
+            <main class="main2 rw">
+                <aside>
+                    <section>
+                        <h2>problemas encontrados suspeitos:</h2>
+                        <div class="rw">
+                            <div class="clm gap">
+                                <div class="rw gap">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="">Psiquiatrico</label>
+                                </div>
+                                <div class="rw gap">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="">Respiratório</label>
+                                </div>
+                                <div class="rw gap">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="">Diabetes</label>
+                                </div>
+                                <div class="rw gap">
+                                    <input type="checkbox" name="" id="">
+                                    <input type="text" name="" id="">
+                                </div>
+                            </div>
+                            <div class="clm gap">
+                                <div class="rw gap">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="">Obstrético</label></div>
+                                <div class="rw gap">
+                                    <input type="checkbox" name="" id="">
+                                    <label for="">Transporte</label></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <br><br><br>
+                    <section>
+                        <div class="clm paciente">
+                            <h2>Avaliação do paciente (GLASGOW)</h2>
+                            <div class="rw gap">
+                                <p>Nível consciência:</p>
+                                <p style="width: 200px;">_____  que 5 anos</p>
+                            </div>
+                            <br><br>
+                            <aside class="clm gap">
+                                <div class="rw gap">
+                                    <p>Abertura ocular:</p>
+                                    <div class="clm gap">
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">espontânea</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">comando verbal</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">estimulo doloroso</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">nenhuma</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="rw gap">
+                                    <p>Resposta verbal:</p>
+                                    <div class="clm gap">
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">orientado</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">confuso</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">palavras inapropriadas</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">palavras incompreensiveis</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">nenhuma resposta verbal</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                            <br><br>
+                            <aside class="rw">
+                                <div class="rw gap">
+                                    <p>Abertura ocular:</p>
+                                    <div class="clm gap">
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">espontânea</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">comando verbal</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">estimulo doloroso</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">nenhuma</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </aside>
+                        </div>
+                        <div>
+                            <button class="btn">SALVAR E AVANÇAR</button>
+                        </div>
+                    </section>
+                </aside>
+                <aside class="aside2">
+                    <h2>Localização dos traumas</h2>
+                    <div class="rw">
+                        <div class="clm">
+                            <div class="corpo">
+                                <img src="../img/corpo.png" alt="corpo">
+                                <div class="check-cabeca"></div>
+
+                                <div class="check-ombroEsquerdo"></div>
+                                <div class="check-ombroDireito"></div>
+
+                                <div class="check-peito"></div>
+
+                                <div class="check-abdomen"></div>
+
+                                <div class="check-pelvis"></div>
+
+                                <div class="check-quadEsquerdo"></div>
+                                <div class="check-quadDireito"></div>
+
+                                <div class="check-tibiaEsquerda"></div>
+                                <div class="check-tibiaDireita"></div>
+
+                                <div class="check-peEsquerdo"></div>
+                                <div class="check-peDireito"></div>
+
+                                <div class="check-bracoEsquerdo"></div>
+                                <div class="check-bracoDireito"></div>
+
+                                <div class="check-anteEsquerdo"></div>
+                                <div class="check-anteDireito"></div>
+
+                                <div class="check-maoEsquerda"></div>
+                                <div class="check-maoDireita"></div>
+                            </div>
+                            <h2>Frontal</h2>
+                        </div>
+                        <div class="clm">
+                        <div class="corpo">
+                                <img src="../img/corpo.png" alt="corpo">
+                                <div class="check-cabeca"></div>
+
+                                <div class="check-ombroEsquerdo"></div>
+                                <div class="check-ombroDireito"></div>
+
+                                <div class="check-peito"></div>
+
+                                <div class="check-abdomen"></div>
+
+                                <div class="check-pelvis"></div>
+
+                                <div class="check-quadEsquerdo"></div>
+                                <div class="check-quadDireito"></div>
+
+                                <div class="check-tibiaEsquerda"></div>
+                                <div class="check-tibiaDireita"></div>
+
+                                <div class="check-peEsquerdo"></div>
+                                <div class="check-peDireito"></div>
+
+                                <div class="check-bracoEsquerdo"></div>
+                                <div class="check-bracoDireito"></div>
+
+                                <div class="check-anteEsquerdo"></div>
+                                <div class="check-anteDireito"></div>
+
+                                <div class="check-maoEsquerda"></div>
+                                <div class="check-maoDireita"></div>
+                            </div>
+                            <h2>Traseiro</h2>
+                        </div>
+                    </div>
+                    <br>
+                    <h2>Clique no local desejado para adicionar o problema</h2>
+                </aside>
+            </main>
         </form>
 
 

@@ -50,8 +50,6 @@ body{
 header{
     height: var(--header-h);
     width: 100%;
-    position: fixed;
-    top: 0;
     background: linear-gradient(to bottom, #09318B 50%, #07266D 50%);
 
     display: flex;
@@ -75,7 +73,6 @@ header h1, #cellphone-only{
 
 main{
     width: 100%;
-    margin-top: var(--header-h);
     height: calc(100dvh - var(--header-h));
 
     display: flex;
