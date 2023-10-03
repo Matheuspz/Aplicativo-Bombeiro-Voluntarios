@@ -37,15 +37,20 @@ table {
 
 /* ESTILIZAÇÃO */
 
-body{
-    height: 210dvh;
-}
-
 :root{
     --header-h: 130px;
     --header-img-margin: 5%;
-    --main-h: calc(100dvh - var(--header-h));
     --check-border-clr: #07266D;
+    --gap: 13px;
+    --font-sz-big: 1.25rem;
+    --fonr-sz-nrml: 1rem;
+    --triangle-w: 25px;
+    --acomp-w: 250px;
+}
+
+body{
+    height: 210dvh;
+    display: grid;
 }
 
 header{
@@ -74,9 +79,6 @@ header h1, #cellphone-only{
 }
 
 main{
-    width: 100%;
-    height: var(--main-h);
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,90 +89,14 @@ p{
     width: 150px;
 }
 
-.main2{
-    position: absolute;
-    top: calc(var(--main-h) - var(--header-h));
-    justify-content: space-between;
-    padding: 80px 0;
-}
-
-#formularioAcompanhante{
-    display: none;
-    flex-direction: column;
-    gap: 20px;
-    background-color: #09318B;
-    padding: 25px 15px;
-    position: absolute;
-    transition: all .3s linear;
-    left: calc(100% + 10px);
-    border-radius: 5px;
-}
-#formularioAcompanhante input{
-    border-bottom: 1px solid #fff;
-    background-color: transparent;
-    color: #fff;
-}
-#formularioAcompanhante input::placeholder {
-    color: #fff;
-    font-size: 14px;
-}
-
 input{
     border-bottom: 1px solid #000;
 }
 
-.form{
-    display: flex;
-    flex-direction: column;
-    gap: 15vmin;
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.gender{
-    margin-top: 10px;
-    gap: 10px;
-}
-
 h2{
-    font-size: 1.2rem;
-    margin-bottom: 20px;
+    font-size: var(--font-sz-big);
+    padding: 0 0 20px 0;
     font-weight: bold
-}
-
-.sec1{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
-.aside1{
-    gap: 15px;
-    position: relative;
-}
-
-.aside2{
-    text-align: center;
-    gap: 15px;
-}
-
-.gap{
-    gap: 10px;
-}
-
-.tiposDeDano{
-    gap: 20px;
-}
-
-.paciente{
-    border: 3px solid #07266D;
-    padding: 20px;
-}
-
-.sec2{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .clm{
@@ -183,38 +109,60 @@ h2{
     flex-direction: row;
 }
 
-.avancar{
-    bottom: 20px;
-    right: 20px;
-    position: absolute;
-    padding: 15px 20px;
-    background-color: transparent;
-    border: 3px solid #1449BF;
-    border-radius: 5px;
-    overflow: hidden;
-    transition: top .3s cubic-bezier(.17,.67,.65,.99);
-}
-.avancar::before{
-    position: absolute;
-    content: '';
-    inset: -1px;
-    top: 100%;
-    background-color: #09318B;
-    z-index: -1;
-    transition: top .3s cubic-bezier(.17,.67,.65,.99);
-}
-.avancar:hover{
-    color: #fff;
-}
-.avancar:hover::before{
-    top: -1px;
+.gap{
+    gap: var(--gap);
 }
 
-hr{
-    width: 60%;
-    height: 3px;
-    background-color: #09318B;
+.d1{
+    width: var(--acomp-w);
 }
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 15vmin;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.paciente{
+    border: 3px solid #07266D;
+    padding: 20px;
+}
+
+#formularioAcompanhante{
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #09318B;
+    padding: 30px 15px 40px 15px;
+    position: absolute;
+    transition: all .3s linear;
+    left: calc(var(--acomp-w) + var(--triangle-w));
+}
+
+#formularioAcompanhante::before{
+    content: '';
+    position: absolute;
+    width: var(--triangle-w);
+    aspect-ratio: 1;
+    top: 0;
+    left: calc(var(--triangle-w) * -1);
+    background: linear-gradient(to top right, #fff 50%, #09318B 50%);
+}
+
+#formularioAcompanhante input{
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+#formularioAcompanhante input::placeholder {
+    color: #fff;
+    font-size: 14px;
+    opacity: .6;
+}
+
 
 .btn{
     width: 250px;
@@ -244,7 +192,6 @@ hr{
 }
 
 
-
 .corpo{
     position: relative;
     width: 300px;
@@ -254,7 +201,7 @@ hr{
     align-items: center;
 }
 
-.check-cabeca{
+.cabeca{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 65px;
@@ -262,7 +209,7 @@ hr{
     top: 10px;
 }
 
-.check-ombroEsquerdo{
+.ombroEsquerdo{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 70px;
@@ -271,7 +218,7 @@ hr{
     left: 75px;
 }
 
-.check-ombroDireito{
+.ombroDireito{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 70px;
@@ -280,7 +227,7 @@ hr{
     right: 75px;
 }
 
-.check-peito{
+.peito{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 70px;
@@ -288,7 +235,7 @@ hr{
     top: 120px;
 }
 
-.check-abdomen{
+.abdomen{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 70px;
@@ -296,7 +243,7 @@ hr{
     height: 65px;
 }
 
-.check-pelvis{
+.pelvis{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 95px;
@@ -304,25 +251,24 @@ hr{
     top: 245px;
 }
 
-.check-quadDireito{
+.quadEsquerdo, .quadDireito{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 42px;
     height: 75px;
+    bottom: 135px;
+}
+
+.quadEsquerdo{
     left: 102px;
-    bottom: 135px;
+
 }
 
-.check-quadEsquerdo{
-    position: absolute;
-    border: 1px solid var(--check-border-clr);
-    width: 42px;
-    height: 75px;
+.quadDireito{
     right: 102px;
-    bottom: 135px;
 }
 
-.check-tibiaDireita, .check-tibiaEsquerda{
+.tibiaDireita, .tibiaEsquerda{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 42px;
@@ -330,15 +276,15 @@ hr{
     bottom: 58px;
 }
 
-.check-tibiaEsquerda{
+.tibiaEsquerda{
     left: 102px;
 }
 
-.check-tibiaDireita{
+.tibiaDireita{
     right: 102px;
 }
 
-.check-peEsquerdo, .check-peDireito{
+.peEsquerdo, .peDireito{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 42px;
@@ -346,15 +292,15 @@ hr{
     bottom: 8px;
 }
 
-.check-peEsquerdo{
+.peEsquerdo{
     left: 102px;
 }
 
-.check-peDireito{
+.peDireito{
     right: 102px;
 }
 
-.check-bracoEsquerdo, .check-bracoDireito{
+.bracoEsquerdo, .bracoDireito{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 33px;
@@ -362,15 +308,15 @@ hr{
     height: 80px;
 }
 
-.check-bracoEsquerdo{
+.bracoEsquerdo{
     left: 75px;
 }
 
-.check-bracoDireito{
+.bracoDireito{
     right: 75px;
 }
 
-.check-anteEsquerdo, .check-anteDireito{
+.anteEsquerdo, .anteDireito{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 33px;
@@ -378,15 +324,15 @@ hr{
     height: 44px;
 }
 
-.check-anteEsquerdo{
+.anteEsquerdo{
     left: 63px;
 }
 
-.check-anteDireito{
+.anteDireito{
     right: 63px;
 }
 
-.check-maoEsquerda, .check-maoDireita{
+.maoEsquerda, .maoDireita{
     position: absolute;
     border: 1px solid var(--check-border-clr);
     width: 33px;
@@ -394,11 +340,11 @@ hr{
     height: 33px;
 }
 
-.check-maoEsquerda{
+.maoEsquerda{
     left: 63px;
 }
 
-.check-maoDireita{
+.maoDireita{
     right: 63px;
 }
 

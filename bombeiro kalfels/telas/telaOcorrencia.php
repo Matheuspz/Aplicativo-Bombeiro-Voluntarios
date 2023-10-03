@@ -14,9 +14,8 @@
         <h1 id="cellphone-only">AHBSAR</h1>
     </header>
     <main>
-
         <form action="" class="form">
-            <section class="sec1">
+            <section class="rw" style="gap: 20px;">
                 <div class="clm">
                     <label for="">Nome:</label>
                     <input type="text" name="" id="">
@@ -35,7 +34,7 @@
                 </div>
                 <div class="clm">
                     <label for="">Sexo:</label>
-                    <div class="rw gender">
+                    <div class="rw gap" style="margin-top: 10px;">
                         <div class="rw">
                             <input type="radio" name="teste" id="">
                             <label for="">Homem</label>
@@ -52,8 +51,8 @@
                 </div>
             </section>
 
-            <section class="sec2">
-                <div class="clm aside1">
+            <section class="rw" style="justify-content: space-between;">
+                <div class="clm gap d1" style="position: relative;">
                     <h2>Possui acompanhante?</h2>
                     <div class="rw">
                         <input type="radio" name="peido" id="acompanhanteSim">
@@ -75,9 +74,9 @@
                     </div>
                 </div>
 
-                <div class="clm aside2">
+                <div class="clm" style="text-align: center">
                     <h2>TIPO DE OCORRÊNCIA (PRÉ-HOSPITALAR) </h2>
-                    <div class="rw tiposDeDano">
+                    <div class="rw gap">
                         <div class="clm gap">
                             <div class="rw gap">
                                 <input type="checkbox" name="" id="">
@@ -171,7 +170,7 @@
                     </div>
                 </div>
             </section>
-            <main class="main2 rw">
+            <main class="rw" style="justify-content: space-between;">
                 <aside>
                     <section>
                         <h2>problemas encontrados suspeitos:</h2>
@@ -288,140 +287,89 @@
                                 </div>
                             </aside>
                         </div>
-                        <div>
-                            <button class="btn">SALVAR E AVANÇAR</button>
-                        </div>
                     </section>
                 </aside>
-                <aside class="aside2">
+                <aside style="text-align: center;">
                     <h2>Localização dos traumas</h2>
+                    <br><br>
                     <div class="rw">
                         <div class="clm">
                             <div class="corpo">
                                 <img src="../img/corpo.png" alt="corpo">
-                                <div class="check-cabeca"></div>
+                                <div class="cabeca"></div>
 
-                                <div class="check-ombroEsquerdo"></div>
-                                <div class="check-ombroDireito"></div>
+                                <div class="ombroEsquerdo"></div>
+                                <div class="ombroDireito"></div>
 
-                                <div class="check-peito"></div>
+                                <div class="peito"></div>
 
-                                <div class="check-abdomen"></div>
+                                <div class="abdomen"></div>
 
-                                <div class="check-pelvis"></div>
+                                <div class="pelvis"></div>
 
-                                <div class="check-quadEsquerdo"></div>
-                                <div class="check-quadDireito"></div>
+                                <div class="quadEsquerdo"></div>
+                                <div class="quadDireito"></div>
 
-                                <div class="check-tibiaEsquerda"></div>
-                                <div class="check-tibiaDireita"></div>
+                                <div class="tibiaEsquerda"></div>
+                                <div class="tibiaDireita"></div>
 
-                                <div class="check-peEsquerdo"></div>
-                                <div class="check-peDireito"></div>
+                                <div class="peEsquerdo"></div>
+                                <div class="peDireito"></div>
 
-                                <div class="check-bracoEsquerdo"></div>
-                                <div class="check-bracoDireito"></div>
+                                <div class="bracoEsquerdo"></div>
+                                <div class="bracoDireito"></div>
 
-                                <div class="check-anteEsquerdo"></div>
-                                <div class="check-anteDireito"></div>
+                                <div class="anteEsquerdo"></div>
+                                <div class="anteDireito"></div>
 
-                                <div class="check-maoEsquerda"></div>
-                                <div class="check-maoDireita"></div>
+                                <div class="maoEsquerda"></div>
+                                <div class="maoDireita"></div>
                             </div>
+                            <br>
                             <h2>Frontal</h2>
                         </div>
-                        <div class="clm">
-                        <div class="corpo">
+                        <div class="clm" >
+                            <div class="corpo">
                                 <img src="../img/corpo.png" alt="corpo">
-                                <div class="check-cabeca"></div>
+                                <div class="cabeca"></div>
 
-                                <div class="check-ombroEsquerdo"></div>
-                                <div class="check-ombroDireito"></div>
+                                <div class="ombroEsquerdo"></div>
+                                <div class="ombroDireito"></div>
 
-                                <div class="check-peito"></div>
+                                <div class="peito"></div>
 
-                                <div class="check-abdomen"></div>
+                                <div class="abdomen"></div>
 
-                                <div class="check-pelvis"></div>
+                                <div class="pelvis"></div>
 
-                                <div class="check-quadEsquerdo"></div>
-                                <div class="check-quadDireito"></div>
+                                <div class="quadEsquerdo"></div>
+                                <div class="quadDireito"></div>
 
-                                <div class="check-tibiaEsquerda"></div>
-                                <div class="check-tibiaDireita"></div>
+                                <div class="tibiaEsquerda"></div>
+                                <div class="tibiaDireita"></div>
 
-                                <div class="check-peEsquerdo"></div>
-                                <div class="check-peDireito"></div>
+                                <div class="peEsquerdo"></div>
+                                <div class="peDireito"></div>
 
-                                <div class="check-bracoEsquerdo"></div>
-                                <div class="check-bracoDireito"></div>
+                                <div class="bracoEsquerdo"></div>
+                                <div class="bracoDireito"></div>
 
-                                <div class="check-anteEsquerdo"></div>
-                                <div class="check-anteDireito"></div>
+                                <div class="anteEsquerdo"></div>
+                                <div class="anteDireito"></div>
 
-                                <div class="check-maoEsquerda"></div>
-                                <div class="check-maoDireita"></div>
+                                <div class="maoEsquerda"></div>
+                                <div class="maoDireita"></div>
                             </div>
+                            <br>
                             <h2>Traseiro</h2>
                         </div>
                     </div>
-                    <br>
+                    <br><br>
                     <h2>Clique no local desejado para adicionar o problema</h2>
                 </aside>
             </main>
         </form>
-
-
-        <!-- <div class="corpo">
-            <img src="../img/corpo.png" alt="corpo">
-            <div class="check-cabeca"></div>
-
-            <div class="check-ombroEsquerdo"></div>
-            <div class="check-ombroDireito"></div>
-
-            <div class="check-peito"></div>
-
-            <div class="check-abdomen"></div>
-
-            <div class="check-pelvis"></div>
-
-            <div class="check-quadEsquerdo"></div>
-            <div class="check-quadDireito"></div>
-
-            <div class="check-tibiaEsquerda"></div>
-            <div class="check-tibiaDireita"></div>
-
-            <div class="check-peEsquerdo"></div>
-            <div class="check-peDireito"></div>
-
-            <div class="check-bracoEsquerdo"></div>
-            <div class="check-bracoDireito"></div>
-
-            <div class="check-anteEsquerdo"></div>
-            <div class="check-anteDireito"></div>
-
-            <div class="check-maoEsquerda"></div>
-            <div class="check-maoDireita"></div>
-        </div> -->
     </main>
 </body>
-<script>
-    const acompanhanteSim = document.getElementById('acompanhanteSim');
-    const acompanhanteNao = document.getElementById('acompanhanteNao');
-    const formularioAcompanhante = document.getElementById('formularioAcompanhante');
-
-    acompanhanteSim.addEventListener('change', function () {
-        if (acompanhanteSim.checked) {
-            formularioAcompanhante.style.display = 'flex';
-        } else {
-            formularioAcompanhante.style.display = 'none';
-        }
-    });
-
-    acompanhanteNao.addEventListener('change', function () {
-        if (acompanhanteNao.checked) {
-            formularioAcompanhante.style.display = 'none';
-        }
-    });
-</script>
+<script src="../js/telaOcorrencia.js"></script>
 </html>

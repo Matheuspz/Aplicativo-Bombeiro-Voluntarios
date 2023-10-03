@@ -21,7 +21,7 @@
         </section>
         <hr>
         <section>
-            <button> Histórico de Ocorrências </button>
+            <button> Histórico de Formulários </button>
         </section>
     </main>
 </body>

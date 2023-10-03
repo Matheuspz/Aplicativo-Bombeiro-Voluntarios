@@ -43,7 +43,7 @@ body{
 }
 
 :root{
-    --header-h: 150px;
+    --header-h: 130px;
     --header-img-margin: 5%;
 }
 
@@ -65,6 +65,7 @@ header h1, #cellphone-only{
     font-size: 20px;
     color: #fff;
     margin-bottom: 30px;
+    margin-left: 20px;
 }
 
 #cellphone-only{
@@ -95,7 +96,7 @@ section button{
     background-color: transparent;
     border: 3px solid #1449BF;
     font-size: 1.3rem;
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
     overflow: hidden;
     transition: top .3s cubic-bezier(.17,.67,.65,.99);
