@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15vmin;
+    background: linear-gradient(to bottom, #09308b 60%, #091a64 60%);
+}
+
+.img {
+    width: 15vmin;
+    height: 15vmin;
+    margin-left: 10vmin;
+}
+
+.texto1 {
+    margin-left: 6vmin;
+    margin-top: 3.5vmin;
+    font-size: 3.5vmin;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.centro {
+    margin-left: 10vmin;
+    width: 90%;
+    height: auto;
+}
+
+.parte1 {
+    margin-top: 2.5%;
+    width: 90%;
+    height: 10vmin;
+}
+
+.labell {
+    width: 20vmin;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
+    font-size: 2vmin;
+    outline: none;
+}
+
+.a {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vmin;
+    justify-content: space-around;
+    font-weight: bolder;
+}
+.b{
+    margin-top: 1.5vmin;
+    display: flex;
+    flex-direction: row;
+
+}
+
+input[type="radio"] {
+    margin-top: 1.25vmin;
+    appearance: none;
+    border: 2px solid black;
+    width: 2vmin;
+    height: 2vmin;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 0.5vmin;
+    background-color: white;
+}
+
+input[type="radio"]:checked {
+    background-color: black;
+}
+.parte2 {
+    margin-left: 2.25%;
+    width: 90%;
+    height: 35vmin;
+}
+.acompanhantetexto {
+    display: none;
+    margin-top: 2.5vmin;
+    width: 20vmin;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
+    font-size: 1.5vmin;
+    outline: none;
+}
+
+.acompanhantetexto2 {
+    display: none;
+    width: 20vmin;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
+    font-size: 1.5vmin;
+    outline: none;
+}
+
+.acompanhantetexto3 {
+    display: none;
+    width: 20vmin;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px black;
+    font-size: 1.5vmin;
+    outline: none;
+}
