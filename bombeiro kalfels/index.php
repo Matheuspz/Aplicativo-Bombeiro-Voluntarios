@@ -31,7 +31,7 @@
                     <input type="submit" value="ENTRAR" class="btn">
                 </div>
                 <a href="telas/telaInicial.php">TESTE</a>
-
+                <a href="telas/telaInicialAdmin.php">Admin</a>
             </form>
         </div>
     </div>
