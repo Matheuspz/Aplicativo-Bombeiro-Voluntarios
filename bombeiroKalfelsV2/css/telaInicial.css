@@ -1,0 +1,249 @@
+/* RESET */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Poppins', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ESTILIZAÇÃO */
+
+body{
+    height: 100dvh;
+    overflow: hidden;
+}
+
+:root{
+    --header-h: 130px;
+    --header-img-margin: 30px;
+}
+
+header{
+    height: var(--header-h);
+    width: 100%;
+    background: linear-gradient(to bottom, #09318B 50%, #07266D 50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    width: calc(var(--header-h) - 5px);
+    margin-left: var(--header-img-margin);
+}
+
+header h1, #cellphone-only{
+    font-size: 20px;
+    color: #fff;
+    white-space: nowrap;
+    margin-bottom: calc(var(--header-h) / 4);
+}
+
+#cellphone-only{
+    display: none;
+}
+
+main{
+    width: 100%;
+    height: calc(100dvh - var(--header-h));
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section button{
+    width: 310px;
+    height: 120px;
+    background-color: transparent;
+    border: 3px solid #1449BF;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    transition: top .3s cubic-bezier(.17,.67,.65,.99);
+}
+section button::before{
+    position: absolute;
+    content: '';
+    inset: -1px;
+    top: 100%;
+    background-color: #09318B;
+    z-index: -1;
+    transition: top .3s cubic-bezier(.17,.67,.65,.99);
+}
+section button:hover{
+    color: #fff;
+}
+section button:hover::before{
+    top: -1px;
+}
+
+hr{
+    width: 40%;
+    height: 3px;
+    background-color: #09318B;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
+.menu{
+    position: relative;
+    width: 40px;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: var(--header-img-margin);
+}        
+    
+.menu_burguer{
+    width: 100%;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 15px;
+      
+    position: relative;
+}      
+      
+.menu_burguer.open{
+    transform: rotate(-405deg);
+} 
+
+.menu_burguer.open:before{
+    display: none;
+}
+        
+.menu_burguer.open:after{
+    bottom: 0;
+    transform: rotate(90deg);
+}
+ 
+.menu_burguer:before{
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+    width: inherit;
+    
+    height: inherit;
+    top: -10px;
+    background-color: inherit;
+}
+      
+.menu_burguer:after{
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+    width: inherit;
+    
+    height: inherit;
+    bottom: -10px;
+    background-color: inherit;
+}
+
+.hidden_nav{
+    position: fixed;
+    width: 200px;
+    aspect-ratio: 2/1;
+    right: calc(var(--header-img-margin) / 2);
+    top: calc(var(--header-h) / 4);
+    background-color: #09318B;
+    border: 3px solid #07266D;
+    border-radius: 5px;
+    transform: translateX(80vw);
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}   
+    
+.hidden_nav.open{
+      transform: translateY(0);
+}
+    
+.hidden_nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    gap: 5rem;
+}    
+
+.hidden_nav ul li a{
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        letter-spacing: 2.5px;     
+        font-weight: bolder;
+        transition: ease .3s;
+}  
+
+.hidden_nav ul li a:hover, .hidden_nav ul li a:active{
+    font-size: 1.3rem
+}
+
+
+@media screen and (max-width: 361px){
+    header img{
+        width: 100px;
+    }
+    header h1{
+        display: none;
+    }
+    #cellphone-only{
+        display: block;
+        font-size: 1.8rem;
+    }
+}
