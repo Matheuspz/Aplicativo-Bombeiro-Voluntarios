@@ -195,11 +195,15 @@
                             </div>
                             <div class="clm gap">
                                 <div class="rw gap">
-                                    <input type="checkbox" name="" id="">
-                                    <label for="">Obstrético</label></div>
+                                    <input type="checkbox" id="obstetricoCheckbox">
+                                    <label for="obstetricoCheckbox">Obstétrico</label>
+                                    <div class="menu2" id="obstetricoMenu">Conteúdo do menu Obstétrico</div>
+                                </div>
+
                                 <div class="rw gap">
-                                    <input type="checkbox" name="" id="">
-                                    <label for="">Transporte</label></div>
+                                    <input type="checkbox" id="transporteCheckbox">
+                                    <label for="transporteCheckbox">Transporte</label>
+                                    <div class="menu2" id="transporteMenu">Conteúdo do menu Transporte</div>
                                 </div>
                             </div>
                         </div>

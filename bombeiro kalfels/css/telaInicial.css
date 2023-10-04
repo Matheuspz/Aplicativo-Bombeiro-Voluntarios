@@ -197,10 +197,10 @@ hr{
     aspect-ratio: 2/1;
     right: calc(var(--header-img-margin) / 2);
     top: calc(var(--header-h) / 4);
-    background-color: #1449BF;
+    background-color: #09318B;
     border: 3px solid #07266D;
     border-radius: 5px;
-    transform: translateX(20vw);
+    transform: translateX(80vw);
     z-index: 1;
     text-align: center;
     display: flex;

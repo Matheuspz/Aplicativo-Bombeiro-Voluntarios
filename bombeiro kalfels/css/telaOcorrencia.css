@@ -130,6 +130,16 @@ h2{
     padding: 20px;
 }
 
+.menu2{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 1;
+    left: 450px;
+}
+
 #formularioAcompanhante{
     display: none;
     flex-direction: column;

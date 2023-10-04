@@ -1,3 +1,29 @@
+// Função para fechar um menu específico
+function closeMenu(menuId) {
+    var menu = document.getElementById(menuId);
+    menu.style.display = 'none';
+}
+
+// Função para lidar com a alteração de estado da checkbox Obstétrico
+document.getElementById('obstetricoCheckbox').addEventListener('change', function() {
+    if (this.checked) {
+        closeMenu('transporteMenu'); // Fecha o outro menu se estiver aberto
+        document.getElementById('obstetricoMenu').style.display = 'block';
+    } else {
+        closeMenu('obstetricoMenu');
+    }
+});
+
+// Função para lidar com a alteração de estado da checkbox Transporte
+document.getElementById('transporteCheckbox').addEventListener('change', function() {
+    if (this.checked) {
+        closeMenu('obstetricoMenu'); // Fecha o outro menu se estiver aberto
+        document.getElementById('transporteMenu').style.display = 'block';
+    } else {
+        closeMenu('transporteMenu');
+    }
+});
+
 const acompanhanteSim = document.getElementById('acompanhanteSim');
 const acompanhanteNao = document.getElementById('acompanhanteNao');
 const formularioAcompanhante = document.getElementById('formularioAcompanhante');
@@ -33,5 +59,7 @@ function verificarNumero() {
         }
     }
 }
+
+
 
 
