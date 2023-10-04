@@ -16,4 +16,22 @@ acompanhanteNao.addEventListener('change', function () {
     }
 });
 
+function verificarNumero() {
+    const numeroInput = document.getElementById("numeroInput");
+    const resultadoSpan = document.getElementById("resultadoSpan");
+    const numero = parseFloat(numeroInput.value); // Converte o valor do input para um número de ponto flutuante
+
+    if (isNaN(numero)) {
+        resultadoSpan.textContent = "_____";
+    } else {
+        if (numero > 5) {
+            resultadoSpan.textContent = "Maior";
+        } else if (numero < 5) {
+            resultadoSpan.textContent = "Menor";
+        } else {
+            resultadoSpan.textContent = "Igual";
+        }
+    }
+}
+
 

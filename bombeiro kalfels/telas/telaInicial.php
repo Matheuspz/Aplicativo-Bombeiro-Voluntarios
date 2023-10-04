@@ -9,9 +9,14 @@
 </head>
 <body>
     <header>
-        <img src="../img/logo_grande.png" alt="logo noar">
-        <h1>Associação Humanitária de Busca Salvamento Aéreo e Resgate</h1>
-        <h1 id="cellphone-only">AHBSAR</h1>
+        <div class="logo">
+            <img src="../img/logo_grande.png" alt="logo noar">
+            <h1>Associação Humanitária de Busca Salvamento Aéreo e Resgate</h1>
+            <h1 id="cellphone-only">AHBSAR</h1>
+        </div>
+        <div class="menu">
+            <div class="menu-burguer">aaa</div>
+        </div>
     </header>
     <main>
         <section>

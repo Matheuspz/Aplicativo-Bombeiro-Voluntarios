@@ -26,7 +26,7 @@
                 </div>
                 <div class="clm">
                     <label for="">Idade:</label>
-                    <input type="text" name="" id="">
+                    <input type="number" id="numeroInput" oninput="verificarNumero()">
                 </div>
                 <div class="clm">
                     <label for="">Telefone:</label>
@@ -210,7 +210,7 @@
                             <h2>Avaliação do paciente (GLASGOW)</h2>
                             <div class="rw gap">
                                 <p>Nível consciência:</p>
-                                <p style="width: 200px;">_____  que 5 anos</p>
+                                <p style="white-space: nowrap;"><span id="resultadoSpan">____</span> que 5 anos</p>
                             </div>
                             <br><br>
                             <aside class="clm gap">
