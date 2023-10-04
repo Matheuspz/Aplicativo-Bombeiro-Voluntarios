@@ -67,6 +67,8 @@ header h1, #cellphone-only{
     color: #fff;
     white-space: nowrap;
     margin-bottom: calc(var(--header-h) / 4);
+    position: absolute;
+    left: calc(var(--header-h) + var(--header-img-margin));
 }
 
 #cellphone-only{
@@ -200,7 +202,7 @@ hr{
     background-color: #09318B;
     border: 3px solid #07266D;
     border-radius: 5px;
-    transform: translateX(80vw);
+    transform: translateX(calc(200px * 1.5));
     z-index: 1;
     text-align: center;
     display: flex;
@@ -245,5 +247,6 @@ hr{
     #cellphone-only{
         display: block;
         font-size: 1.8rem;
+        left: var(--header-h);
     }
 }
