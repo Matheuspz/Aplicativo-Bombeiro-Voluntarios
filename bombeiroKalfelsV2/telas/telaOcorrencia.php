@@ -197,13 +197,56 @@
                                 <div class="rw gap">
                                     <input type="checkbox" id="obstetricoCheckbox">
                                     <label for="obstetricoCheckbox">Obstétrico</label>
-                                    <div class="menu2" id="obstetricoMenu">Conteúdo do menu Obstétrico</div>
+                                    <div class="menu gap" id="obstetricoMenu">
+                                        <div class="closeBtn" onclick="fecharMenu('obstetricoMenu');">X</div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">Parto Emergencial</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">Gestante</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">Hemor. Excessiva</label>
+                                        </div>
+                                    </div>
                                 </div>
-
                                 <div class="rw gap">
                                     <input type="checkbox" id="transporteCheckbox">
                                     <label for="transporteCheckbox">Transporte</label>
-                                    <div class="menu2" id="transporteMenu">Conteúdo do menu Transporte</div>
+                                    <div class="menu gap" id="transporteMenu">
+                                        <div class="closeBtn" onclick="fecharMenu('transporteMenu');">X</div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">Aéreo</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">Clinico</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">Emergencial</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">Pós-trauma</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">Samu</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">Sem Remoção</label>
+                                        </div>
+                                        <div class="rw gap" style="align-items: center;">
+                                            <label for="">Outros:</label>
+                                            <input type="text" name="" id="">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -269,23 +312,35 @@
                             <br><br>
                             <aside class="rw">
                                 <div class="rw gap">
-                                    <p>Abertura ocular:</p>
+                                    <p>resposta motora:</p>
                                     <div class="clm gap">
                                         <div class="rw gap">
                                             <input type="checkbox" name="" id="">
-                                            <label for="">espontânea</label>
+                                            <label for="">obedece comandos</label>
                                         </div>
                                         <div class="rw gap">
                                             <input type="checkbox" name="" id="">
-                                            <label for="">comando verbal</label>
+                                            <label for="">localiza dor</label>
                                         </div>
                                         <div class="rw gap">
                                             <input type="checkbox" name="" id="">
-                                            <label for="">estimulo doloroso</label>
+                                            <label for="">movimento de retirada</label>
                                         </div>
                                         <div class="rw gap">
                                             <input type="checkbox" name="" id="">
-                                            <label for="">nenhuma</label>
+                                            <label for="">flexão anormal</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">extensão anormal</label>
+                                        </div>
+                                        <div class="rw gap">
+                                            <input type="checkbox" name="" id="">
+                                            <label for="">flexão anormal</label>
+                                        </div>
+                                        <div class="clm gap">
+                                            <label for="">Total (GCS) (3-15):</label>
+                                            <input type="text" name="" id="">
                                         </div>
                                     </div>
                                 </div>
@@ -293,7 +348,7 @@
                         </div>
                     </section>
                 </aside>
-                <aside style="text-align: center;">
+                <aside class="corpos">
                     <h2>Localização dos traumas</h2>
                     <br><br>
                     <div class="rw">
@@ -330,7 +385,7 @@
                                 <div class="maoDireita"></div>
                             </div>
                             <br>
-                            <h2>Frontal</h2>
+                            <h2 style="text-decoration: underline;">Frontal</h2>
                         </div>
                         <div class="clm" >
                             <div class="corpo">
@@ -365,7 +420,7 @@
                                 <div class="maoDireita"></div>
                             </div>
                             <br>
-                            <h2>Traseiro</h2>
+                            <h2 style="text-decoration: underline;">Traseiro</h2>
                         </div>
                     </div>
                     <br><br>

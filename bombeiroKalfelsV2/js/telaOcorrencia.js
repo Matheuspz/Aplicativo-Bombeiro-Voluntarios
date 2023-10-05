@@ -1,3 +1,8 @@
+function fecharMenu(menu) {
+    var menuEscolhido = document.getElementById(menu);
+    menuEscolhido.style.display = "none";
+}
+
 // Função para fechar um menu específico
 function closeMenu(menuId) {
     var menu = document.getElementById(menuId);
@@ -8,7 +13,7 @@ function closeMenu(menuId) {
 document.getElementById('obstetricoCheckbox').addEventListener('change', function() {
     if (this.checked) {
         closeMenu('transporteMenu'); // Fecha o outro menu se estiver aberto
-        document.getElementById('obstetricoMenu').style.display = 'block';
+        document.getElementById('obstetricoMenu').style.display = 'flex';
     } else {
         closeMenu('obstetricoMenu');
     }
@@ -18,7 +23,7 @@ document.getElementById('obstetricoCheckbox').addEventListener('change', functio
 document.getElementById('transporteCheckbox').addEventListener('change', function() {
     if (this.checked) {
         closeMenu('obstetricoMenu'); // Fecha o outro menu se estiver aberto
-        document.getElementById('transporteMenu').style.display = 'block';
+        document.getElementById('transporteMenu').style.display = 'flex';
     } else {
         closeMenu('transporteMenu');
     }

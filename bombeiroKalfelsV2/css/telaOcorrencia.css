@@ -46,6 +46,7 @@ table {
     --fonr-sz-nrml: 1rem;
     --triangle-w: 25px;
     --acomp-w: 250px;
+    --prblm-label-w: 100px;
 }
 
 body{
@@ -130,14 +131,34 @@ h2{
     padding: 20px;
 }
 
-.menu2{
+.menu{
+    width: fit-content;
     display: none;
+    flex-direction: column;
     position: absolute;
-    background-color: #f9f9f9;
-    padding: 10px;
-    border: 1px solid #ccc;
-    z-index: 1;
-    left: 450px;
+    color: #fff;
+    background-color: #09318B;
+    border-radius: 5px;
+    padding: 13px 8px;
+    transform: translateX(calc(var(--prblm-label-w) * 1.25));
+}
+
+.closeBtn{
+    position: absolute;
+    top: 5px;
+    right: -15px;
+    color: #000;
+    cursor: pointer;
+}
+
+.menu input{
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.corpos{
+    text-align: center;
 }
 
 #formularioAcompanhante{

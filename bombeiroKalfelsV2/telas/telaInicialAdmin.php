@@ -10,7 +10,7 @@
 <body>
     <nav class="hidden_nav">
         <ul>
-            <li><a href="index.php">VOLTAR</a></li>
+            <li><a href="../index.php">VOLTAR</a></li>
         </ul>
     </nav>
     <header>
