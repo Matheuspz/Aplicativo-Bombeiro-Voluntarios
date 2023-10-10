@@ -8,42 +8,24 @@
     <link rel="stylesheet" href="../css/telaInicial.css">
 </head>
 <body>
-    <nav class="hidden_nav">
-        <ul>
-            <li><a href="#">SAIR</a></li>
-        </ul>
-    </nav>
     <header>
-        <div class="logo">
-            <img src="../img/logo_grande.png" alt="logo noar">
-            <h1>Associação Humanitária de Busca Salvamento Aéreo e Resgate</h1>
-            <h1 id="cellphone-only">AHBSAR</h1>
-        </div>
+        <img src="../img/logo_grande.png" alt="logoNOAR">
+        <h1>Associação Humanitária de Busca Salvamento Aéreo e Resgate</h1>
+        <h1 class="cellphone">AHBSAR</h1>
         <div class="menu">
             <div class="menu_burguer"></div>
+            <nav class="hidden_nav">
+                <ul>
+                    <li><a href="../index.php">SAIR</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
-        <section>
-            <a href="telaOcorrencia.php">
-                <button> Nova Ocorrência </button>
-            </a>
-        </section>
+        <button>Nova ocorrencia</button>
         <hr>
-        <section>
-            <button> Histórico de Formulários </button>
-        </section>
+        <button>Histórico de formulários</button>
     </main>
 </body>
-<script>
-    document.querySelector(".menu").onclick = () => {
-    let nav = document.querySelector(".hidden_nav");
-    nav.classList.toggle("open");
-    nav.style.transition = ".5s cubic-bezier(.17,.67,.46,.97)";
-    
-    let menuBurg = document.querySelector(".menu_burguer");
-    menuBurg.classList.toggle("open");
-    menuBurg.style.transition = ".5s cubic-bezier(.17,.67,.46,.97)";
-    };
-</script>
+<script src="../js/telaInicial.js"></script>
 </html>
