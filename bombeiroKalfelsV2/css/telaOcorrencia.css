@@ -86,10 +86,6 @@ main{
     justify-content: center;
 }
 
-p{
-    width: 150px;
-}
-
 input{
     border-bottom: 1px solid #000;
 }
@@ -131,6 +127,10 @@ h2{
     padding: 20px;
 }
 
+.paciente p{
+    width: 150px;
+}
+
 .menu{
     width: fit-content;
     display: none;
@@ -159,6 +159,72 @@ h2{
 
 .corpos{
     text-align: center;
+}
+
+.hiddenCorpoSelect{
+    position: absolute;
+    border: 1px solid black;
+    z-index: 1000;
+    background-color: #fff;
+}
+.hiddenCorpoSelect::after{
+    content: '';
+    position: absolute;
+    width: var(--triangle-w);
+    aspect-ratio: 1;
+    top: -1px;
+    border-top: 1px solid black;
+    right: calc(var(--triangle-w) * -1 - 1px);
+    background: linear-gradient(to top left, #fff 49%, #000 50%, #fff 51%);
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-bottom-style: dashed ;
+    padding: 5px;
+    gap: 10px;
+}
+
+.linha button{
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.linha button:hover{
+    background-color: #1449BF;
+}
+
+.botaoCorpoSelect{
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    color: #fff;
+    background-color: #1449BF;
+    transition: all .3s ease;
+}
+
+.botaoCorpoSelect:hover, .botaoCorpoSelect:focus-within, .botaoCorpoSelect:active{
+    background-color: #07266D;
+}  
+
+.clicavel {
+    cursor: pointer;
+    position: relative;
+}
+
+.salvarAvancar{
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    align-items: center;
+}
+
+.salvarAvancar label{
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 #formularioAcompanhante{

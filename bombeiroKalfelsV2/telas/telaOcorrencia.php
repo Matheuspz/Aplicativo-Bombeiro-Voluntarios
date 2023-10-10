@@ -349,75 +349,116 @@
                     </section>
                 </aside>
                 <aside class="corpos">
+                    <div class="hiddenCorpoSelect clm" id="listaEscondida">
+                        <div class="linha">
+                            <button type="button"><img src="../img/fraturas.png"></button>
+                            <p>Fraturas / Luxações /Entorses</p>
+                        </div>
+                        <div class="linha">
+                            <button type="button"><img src="../img/ferimentos.png"></button>
+                            <p>Ferimentos Diversos</p>
+                        </div>
+                        <div class="linha">
+                            <button type="button"><img src="../img/hemorragias.png"></button>
+                            <p>Hemorragias</p>
+                        </div>
+                        <div class="linha">
+                            <button type="button"><img src="../img/esviceração.png"></button>
+                            <p>Esviceração</p>
+                        </div>
+                        <div class="linha">
+                            <button type="button"><img src="../img/FAG.png"></button>
+                            <p>F.A.G.   |  F.A.F.</p>
+                        </div>
+                        <div class="linha">
+                            <button type="button"><img src="../img/amputação.png"></button>
+                            <p>Amputação</p>
+                        </div>
+                        <div class="linha">
+                            <button type="button"><img src="../img/queimadura1.png"></button>
+                            <p>Queimadura 1º Grau</p>
+                        </div>
+                        <div class="linha">
+                            <button type="button"><img src="../img/queimadura2.png"></button>
+                            <p>Queimadura 2º Grau</p>
+                        </div>
+                        <div class="linha">
+                            <button type="button"><img src="../img/queimadura3.png"></button>
+                            <p>Queimadura 3º Grau</p>
+                        </div>
+                        <div>
+                            <button class="botaoCorpoSelect">CONFIRMAR</button>
+                        </div>
+                    </div>
                     <h2>Localização dos traumas</h2>
                     <br><br>
                     <div class="rw">
                         <div class="clm">
                             <div class="corpo">
                                 <img src="../img/corpo.png" alt="corpo">
-                                <div class="cabeca"></div>
+                                <div class="cabeca clicavel" id="cabeca"></div>
 
-                                <div class="ombroEsquerdo"></div>
-                                <div class="ombroDireito"></div>
+                                <div class="ombroEsquerdo clicavel" id="ombroEs"></div>
+                                <div class="ombroDireito clicavel" id="ombroDi"></div>
 
-                                <div class="peito"></div>
+                                <div class="peito clicavel" id="peito"></div>
 
-                                <div class="abdomen"></div>
+                                <div class="abdomen clicavel" id="abs"></div>
 
-                                <div class="pelvis"></div>
+                                <div class="pelvis clicavel" id="pelvis"></div>
 
-                                <div class="quadEsquerdo"></div>
-                                <div class="quadDireito"></div>
+                                <div class="quadEsquerdo clicavel" id="quadEs"></div>
+                                <div class="quadDireito clicavel" id="quadDir"></div>
 
-                                <div class="tibiaEsquerda"></div>
-                                <div class="tibiaDireita"></div>
+                                <div class="tibiaEsquerda clicavel" id="tibiaEs"></div>
+                                <div class="tibiaDireita clicavel" id="tibiaDir"></div>
 
-                                <div class="peEsquerdo"></div>
-                                <div class="peDireito"></div>
+                                <div class="peEsquerdo clicavel" id="peEs"></div>
+                                <div class="peDireito clicavel" id="peDi"></div>
 
-                                <div class="bracoEsquerdo"></div>
-                                <div class="bracoDireito"></div>
+                                <div class="bracoEsquerdo clicavel" id="bracoEs"></div>
+                                <div class="bracoDireito clicavel" id="bracoDi"></div>
 
-                                <div class="anteEsquerdo"></div>
-                                <div class="anteDireito"></div>
+                                <div class="anteEsquerdo clicavel" id="anteEs"></div>
+                                <div class="anteDireito clicavel" id="anteDi"></div>
 
-                                <div class="maoEsquerda"></div>
-                                <div class="maoDireita"></div>
+                                <div class="maoEsquerda clicavel" id="maoEs"></div>
+                                <div class="maoDireita clicavel" id="maoDi"></div>
                             </div>
                             <br>
                             <h2 style="text-decoration: underline;">Frontal</h2>
                         </div>
                         <div class="clm" >
                             <div class="corpo">
-                                <img src="../img/corpo.png" alt="corpo">
-                                <div class="cabeca"></div>
+                            <img src="../img/corpo.png" alt="corpo">
+                                <div class="cabeca clicavel" id="cabeca"></div>
 
-                                <div class="ombroEsquerdo"></div>
-                                <div class="ombroDireito"></div>
+                                <div class="ombroEsquerdo clicavel" id="ombroEs"></div>
+                                <div class="ombroDireito clicavel" id="ombroDi"></div>
 
-                                <div class="peito"></div>
+                                <div class="peito clicavel" id="peito"></div>
 
-                                <div class="abdomen"></div>
+                                <div class="abdomen clicavel" id="abs"></div>
 
-                                <div class="pelvis"></div>
+                                <div class="pelvis clicavel" id="pelvis"></div>
 
-                                <div class="quadEsquerdo"></div>
-                                <div class="quadDireito"></div>
+                                <div class="quadEsquerdo clicavel" id="quadEs"></div>
+                                <div class="quadDireito clicavel" id="quadDir"></div>
 
-                                <div class="tibiaEsquerda"></div>
-                                <div class="tibiaDireita"></div>
+                                <div class="tibiaEsquerda clicavel" id="tibiaEs"></div>
+                                <div class="tibiaDireita clicavel" id="tibiaDir"></div>
 
-                                <div class="peEsquerdo"></div>
-                                <div class="peDireito"></div>
+                                <div class="peEsquerdo clicavel" id="peEs"></div>
+                                <div class="peDireito clicavel" id="peDi"></div>
 
-                                <div class="bracoEsquerdo"></div>
-                                <div class="bracoDireito"></div>
+                                <div class="bracoEsquerdo clicavel" id="bracoEs"></div>
+                                <div class="bracoDireito clicavel" id="bracoDi"></div>
 
-                                <div class="anteEsquerdo"></div>
-                                <div class="anteDireito"></div>
+                                <div class="anteEsquerdo clicavel" id="anteEs"></div>
+                                <div class="anteDireito clicavel" id="anteDi"></div>
 
-                                <div class="maoEsquerda"></div>
-                                <div class="maoDireita"></div>
+                                <div class="maoEsquerda clicavel" id="maoEs"></div>
+                                <div class="maoDireita clicavel" id="maoDi"></div>
                             </div>
                             <br>
                             <h2 style="text-decoration: underline;">Traseiro</h2>
@@ -427,6 +468,10 @@
                     <h2>Clique no local desejado para adicionar o problema</h2>
                 </aside>
             </main>
+            <div class="rw salvarAvancar">
+                <label for="avancar">Salvar e Avançar</label>
+                <button id="avancar"><img src="../img/setaAvancar.png"></button>
+            </div>
         </form>
     </main>
 </body>

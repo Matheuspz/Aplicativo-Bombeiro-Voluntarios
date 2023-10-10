@@ -29,6 +29,10 @@ document.getElementById('transporteCheckbox').addEventListener('change', functio
     }
 });
 
+
+
+
+
 const acompanhanteSim = document.getElementById('acompanhanteSim');
 const acompanhanteNao = document.getElementById('acompanhanteNao');
 const formularioAcompanhante = document.getElementById('formularioAcompanhante');
