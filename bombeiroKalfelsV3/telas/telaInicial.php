@@ -22,7 +22,7 @@
         </div>
     </header>
     <main>
-        <a href="telaOcorrencia.php"><button>Nova ocorrencia</button></a>
+        <a href="telaOcorrencia1.php"><button>Nova ocorrencia</button></a>
         <hr>
         <button>Histórico de formulários</button>
     </main>
