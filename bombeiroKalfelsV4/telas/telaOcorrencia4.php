@@ -89,7 +89,7 @@
             </section>
             <section class="lowerSection">
                 <h1>Objetos Recolhidos</h1>
-                <input type="text" name="" id="" placeholder="Digite aqui...">
+                <textarea class="custom-textarea" placeholder="Digite seu texto aqui"></textarea>
             </section>
             <a href="#"><input type="submit" class="btn" value="Salvar e Avançar"></a>
         </main>
