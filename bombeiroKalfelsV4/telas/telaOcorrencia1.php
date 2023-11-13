@@ -74,12 +74,18 @@
                 <div class="acompanhanteEscolha">
 
                     <div class="escolhaAcompanhante">
-                        <input type="radio" name="acompanhante" id="">
-                        <label for="">Não</label>
+                        <input type="radio" name="acompanhante" id="acompanhanteSim">
+                        <label for="">Sim</label>
                     </div>
                     <div class="escolhaAcompanhante">
-                        <input type="radio" name="acompanhante" id="">
-                        <label for="">Sim</label>
+                        <input type="radio" name="acompanhante" id="acompanhanteNao">
+                        <label for="">Não</label>
+                    </div>
+
+                    <div class="hiddenAcompanhanteDiv" id="formularioAcompanhante">
+                        <input type="text" placeholder="Nome acompanhante">
+                        <input type="number" placeholder="Idade acompanhante">
+                        <input type="tel" name="" id="" placeholder="Telefone acompanhante">
                     </div>
 
                 </div>

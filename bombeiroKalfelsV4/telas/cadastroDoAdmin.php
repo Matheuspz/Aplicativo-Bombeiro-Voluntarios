@@ -31,7 +31,7 @@
     <div class="azul-escuro">
         <img src="../img/logo_grande.png" alt="logo bombeiros">
         <div class="azul-claro">
-            <h1>LOGIN</h1>
+            <h1>CADASTRO</h1>
             <form action="">
                 <div class="form-column">
                     <input type="text" name="" id="" placeholder="Digite seu email">

@@ -203,10 +203,37 @@ aside h2{
 }
 
 .acompanhanteEscolha{
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
 	padding: 30px 0;
+}
+
+.hiddenAcompanhanteDiv{
+	position: absolute;
+	background-color: #09318B;
+	padding: 10px 15px 20px 15px;
+	bottom: 100%;
+	display: none;
+	flex-direction: column;
+	row-gap: 8px;
+}
+
+.hiddenAcompanhanteDiv input{
+	background-color: transparent;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.hiddenAcompanhanteDiv::after{
+	content: '';
+	position: absolute;
+	width: 20px;
+	aspect-ratio: 1;
+	bottom: -20px;
+	background: linear-gradient(to top left, #fff 50%, #09318B 50%);
+	left: 0;
 }
 
 .localOcorrencia{
