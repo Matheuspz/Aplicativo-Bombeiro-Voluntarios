@@ -127,181 +127,181 @@
             <div class="sinaisESintomasGrid">
                 <aside class="aside2aside1">
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Abdômen Sensível ou Rígido</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Afundamento de Crânio</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Agitação</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Amnésia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Angina de Peito</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Apneia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Bradicardia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Bradipnéia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Bronco - Aspirando</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Cefaléia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Cianose</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Convulsão</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Decorticação</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Deformidade</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Descerebração</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Desmaio</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Desvio de Traquéia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Dispnéia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Dor local</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Edema</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Enfisema Subcutânea</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Estase de Jugular</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Face Pálida</label>
                     </div>
                 </aside>
                 <aside class="aside2aside2">
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Hemorragia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Hipertensão</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Hipotensão</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Nâuseas e vômitos</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Nasorogia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Óbito</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Otorréia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Otorracia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">O V A C E</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Parada</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Priaprismo</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Prurido na pele</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Pupilas</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Sede</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Sinal de Battle</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Sinal de Guaxinim</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Sudorese</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Taquipinéia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Taquicardiaca</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Tontura</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="radio" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Outro:</label>
                         <input type="text" name="" id="">
                     </div>

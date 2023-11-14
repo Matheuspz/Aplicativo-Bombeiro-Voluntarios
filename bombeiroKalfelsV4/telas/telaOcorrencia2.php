@@ -28,27 +28,75 @@
                 <h1>Problemas encontrados suspeitos:</h1>
                 <div class="problemasGrid">
                     <div class="opcaoProblema">
-                        <input type="radio" name="problemaSuspeito" id="">
+                        <input type="checkbox" name="problemaSuspeito" id="">
                         <label for="">Psiquiatrico</label>
                     </div>
                     <div class="opcaoProblema">
-                        <input type="radio" name="" id="">
-                        <label for="">Obstrético</label>
+                        <input type="checkbox" id="toggleObstetrico" onchange="toggleDiv('hiddenObstétrico', 'toggleObstetrico')">
+                        <label for="toggleObstetrico">Obstétrico</label>
+
+                        <div class="hidden hiddenObstétrico">
+                            <div class="obstetricoCells">
+                                <input type="radio" name="opcaoObstetrico" id="">
+                                <label for="">Parto Emergencial</label>
+                            </div>
+                            <div class="obstetricoCells">
+                                <input type="radio" name="opcaoObstetrico" id="">
+                                <label for="">Gestante</label>
+                            </div>
+                            <div class="obstetricoCells">
+                                <input type="radio" name="opcaoObstetrico" id="">
+                                <label for="">Hemor. Excessiva  </label>
+                            </div>
+
+                            <div class="closeButton X" onclick="fecharDiv('hiddenObstétrico', 'toggleObstetrico')">❌</div>
+                        </div>
                     </div>
                     <div class="opcaoProblema">
-                        <input type="radio" name="problemaSuspeito" id="">
+                        <input type="checkbox" name="problemaSuspeito" id="">
                         <label for="">Respiratório</label>
                     </div>
                     <div class="opcaoProblema">
-                        <input type="radio" name="" id="">
-                        <label for="">Transporte</label>
+                        <input type="checkbox" id="toggleTransporte" onchange="toggleDiv('hiddenTransporte', 'toggleTransporte')">
+                        <label for="toggleTransporte">Transporte</label>
+
+                        <div class="hidden hiddenTransporte">
+                            <div class="transporteCells">
+                                <input type="radio" name="opcaoTransporte" id="">
+                                <label for="">Aéreo</label>
+                            </div>
+                            <div class="transporteCells">
+                                <input type="radio" name="opcaoTransporte" id="">
+                                <label for="">Clinico</label>
+                            </div>
+                            <div class="transporteCells">
+                                <input type="radio" name="opcaoTransporte" id="">
+                                <label for="">Emergencial</label>
+                            </div>
+                            <div class="transporteCells">
+                                <input type="radio" name="opcaoTransporte" id="">
+                                <label for="">Pós-trauma</label>
+                            </div>
+                            <div class="transporteCells">
+                                <input type="radio" name="opcaoTransporte" id="">
+                                <label for="">Samu</label>
+                            </div>
+                            <div class="transporteCells">
+                                <input type="radio" name="opcaoTransporte" id="">
+                                <label for="">Sem Remoção</label>
+                            </div>
+                            <div class="transporteCells">
+                                <input type="radio" name="opcaoTransporte" id="">
+                                <label for="">Outros:</label>
+                                <input type="text" name="" id="">
+                            </div>
+
+                            <div class="closeButton X" onclick="fecharDiv('hiddenTransporte', 'toggleTransporte')">❌</div></div>
+                        </div>
                     </div>
                     <div class="opcaoProblema">
-                        <input type="radio" name="problemaSuspeito" id="">
+                        <input type="checkbox" name="problemaSuspeito" id="">
                         <label for="">Diabetes</label>
-                    </div>
-                    <div class="opcaoProblema">
-                        <!-- NADA -->
                     </div>
                     <div class="opcaoProblema">
                         <label for="">Outro</label>

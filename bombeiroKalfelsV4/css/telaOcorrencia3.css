@@ -307,7 +307,7 @@ input[type="text"], input[type="number"]{
 	color: #fff;
 }
 
-input[type="radio"] {
+input[type="radio"], input[type="checkbox"] {
 	width: 20px; /* Define a largura do quadrado */
 	aspect-ratio: 1;
 	-webkit-appearance: none; /* Remove a aparência padrão do navegador */
@@ -316,11 +316,11 @@ input[type="radio"] {
 	border-radius: 5px; /* Remove o arredondamento dos cantos */
 }
 
-input[type="radio"]:checked {
+input[type="radio"]:checked, input[type="checkbox"]:checked {
 	background-color: #13862c; /* Mude a cor de fundo quando o input estiver marcado */
 	position: relative;
 }
-input[type="radio"]:checked::after {
+input[type="radio"]:checked::after, input[type="checkbox"]:checked::after  {
 	content: '✔️';
 	position: absolute;
 	inset: 0;

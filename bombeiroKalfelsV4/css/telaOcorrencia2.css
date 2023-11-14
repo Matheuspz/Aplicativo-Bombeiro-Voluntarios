@@ -166,7 +166,7 @@ main{
     text-align: left;
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 10px;
 }
 
 .sectionProblemas h1{
@@ -177,11 +177,12 @@ main{
 .problemasGrid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     row-gap: 10px;
 }
 
 .opcaoProblema{
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -265,6 +266,112 @@ main{
     row-gap: 10px;
 }
 
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: flex;
+}
+
+.closeButton {
+    cursor: pointer;
+}
+
+.hiddenTransporte{
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    background-color: #09318B;
+    padding: 10px 8px;
+    color: #fff;
+
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.X{
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    font-size: 20px;
+}
+
+.hiddenTransporte::before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	aspect-ratio: 1;
+	top: -20px;
+	background: linear-gradient(to bottom left, #fff 50%, #09318B 50%);
+	left: 0;
+}
+
+.transporteCells{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.transporteCells input[type="text"]{
+    max-width: 155px;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+.transporteCells input[type="radio"]{
+    border-color: #fff;
+}
+
+.transporteCells input[type="radio"]:checked{
+    border-color: #000;
+}
+
+.hiddenObstétrico{
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    background-color: #09318B;
+    padding: 10px 8px;
+    color: #fff;
+
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.hiddenObstétrico::before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	aspect-ratio: 1;
+	top: -20px;
+	background: linear-gradient(to bottom left, #fff 50%, #09318B 50%);
+	left: 0;
+}
+
+.obstetricoCells{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.obstetricoCells input[type="text"]{
+    max-width: 155px;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+.obstetricoCells input[type="radio"]{
+    border-color: #fff;
+}
+
+.obstetricoCells input[type="radio"]:checked{
+    border-color: #000;
+}
+
 hr{
     width: 100%;
     height: 2px;
@@ -275,7 +382,7 @@ input[type="text"]{
     border-bottom: 1px solid #000;
 }
 
-input[type="radio"] {
+input[type="radio"], input[type="checkbox"] {
 	width: 20px; /* Define a largura do quadrado */
 	aspect-ratio: 1;
 	-webkit-appearance: none; /* Remove a aparência padrão do navegador */
@@ -284,11 +391,11 @@ input[type="radio"] {
 	border-radius: 5px; /* Remove o arredondamento dos cantos */
 }
 
-input[type="radio"]:checked {
+input[type="radio"]:checked, input[type="checkbox"]:checked {
 	background-color: #13862c; /* Mude a cor de fundo quando o input estiver marcado */
 	position: relative;
 }
-input[type="radio"]:checked::after {
+input[type="radio"]:checked::after, input[type="checkbox"]:checked::after {
 	content: '✔️';
 	position: absolute;
 	inset: 0;
@@ -379,6 +486,10 @@ input[type="radio"]:checked::after {
         bottom: -100px;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .avaliacaoPaciente h2 {
+        max-width: 150px;
     }
 
 }

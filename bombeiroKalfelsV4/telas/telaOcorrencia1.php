@@ -82,7 +82,7 @@
                         <label for="">Não</label>
                     </div>
 
-                    <div class="hiddenAcompanhanteDiv" id="formularioAcompanhante">
+                    <div class="hiddenAcompanhanteDiv hidden" id="formularioAcompanhante">
                         <input type="text" placeholder="Nome acompanhante">
                         <input type="number" placeholder="Idade acompanhante">
                         <input type="tel" name="" id="" placeholder="Telefone acompanhante">

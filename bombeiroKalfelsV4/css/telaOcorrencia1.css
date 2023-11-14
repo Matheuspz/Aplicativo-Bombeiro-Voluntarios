@@ -226,6 +226,11 @@ aside h2{
 	border-bottom: 1px solid #fff;
 }
 
+.hiddenAcompanhanteDiv input::placeholder{
+	color: #fff;
+	opacity: .5;
+}
+
 .hiddenAcompanhanteDiv::after{
 	content: '';
 	position: absolute;
