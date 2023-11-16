@@ -289,6 +289,69 @@ input[type="text"], input[type="number"]{
     flex-direction: row;
     align-items: center;
     column-gap: 5px;
+    position: relative;
+}
+
+.Hemorragia{
+    width: 120px;
+}
+
+.Parada{
+    width: 130px;
+}
+
+.Edema{
+    width: 160px;
+}
+
+.hidden{
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    background-color: #09318B;
+    padding: 10px 8px;
+    color: #fff;
+    display: none;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.hidden::before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	aspect-ratio: 1;
+	top: -20px;
+	background: linear-gradient(to bottom left, transparent 50%, #09318B 50%);
+	left: 0;
+}
+
+.hiddenCell{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.hiddenCell input[type="text"]{
+    max-width: 155px;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+.hiddenCell input[type="radio"]{
+    border-color: #fff;
+}
+
+.hiddenCell input[type="radio"]:checked{
+    border-color: #000;
+}
+
+.X{
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 8px;
+    font-size: 20px;
 }
 
 .btn{

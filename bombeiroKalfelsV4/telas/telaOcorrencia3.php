@@ -167,8 +167,21 @@
                         <label for="">Cefaléia</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="checkbox" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="" onchange="toggleHidden('hidden1')">
                         <label for="">Cianose</label>
+
+                        <div class="hidden" id="hidden1">
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoCianose" id="">
+                                <label for="">Labios</label>
+                            </div>
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoCianose" id="">
+                                <label for="">Extremidades</label>
+                            </div>
+
+                            <div class="X" onclick="fecharHidden('hidden1')">❌</div>
+                        </div>
                     </div>
                     <div class="sinaisESintomasCell">
                         <input type="checkbox" name="sinaisESintomas" id="">
@@ -203,8 +216,21 @@
                         <label for="">Dor local</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="checkbox" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="" onchange="toggleHidden('hidden2')">
                         <label for="">Edema</label>
+
+                        <div class="hidden Edema" id="hidden2">
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoEdema" id="">
+                                <label for="">Generalizado</label>
+                            </div>
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoEdema" id="">
+                                <label for="">Localizado</label>
+                            </div>
+
+                            <div class="X" onclick="fecharHidden('hidden2')">❌</div>
+                        </div>
                     </div>
                     <div class="sinaisESintomasCell">
                         <input type="checkbox" name="sinaisESintomas" id="">
@@ -221,8 +247,21 @@
                 </aside>
                 <aside class="aside2aside2">
                     <div class="sinaisESintomasCell">
-                        <input type="checkbox" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="" onchange="toggleHidden('hidden3')">
                         <label for="">Hemorragia</label>
+
+                        <div class="hidden Hemorragia" id="hidden3">
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoHemorragia" id="">
+                                <label for="">Interna</label>
+                            </div>
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoHemorragia" id="">
+                                <label for="">Externa</label>
+                            </div>
+
+                            <div class="X" onclick="fecharHidden('hidden3')">❌</div>
+                        </div>
                     </div>
                     <div class="sinaisESintomasCell">
                         <input type="checkbox" name="sinaisESintomas" id="">
@@ -257,8 +296,21 @@
                         <label for="">O V A C E</label>
                     </div>
                     <div class="sinaisESintomasCell">
-                        <input type="checkbox" name="sinaisESintomas" id="">
+                        <input type="checkbox" name="sinaisESintomas" id="" onchange="toggleHidden('hidden4')">
                         <label for="">Parada</label>
+
+                        <div class="hidden Parada" id="hidden4">
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoParada" id="">
+                                <label for="">Cardíaca</label>
+                            </div>
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoParada" id="">
+                                <label for="">Respiratória</label>
+                            </div>
+
+                            <div class="X" onclick="fecharHidden('hidden4')">❌</div>
+                        </div>
                     </div>
                     <div class="sinaisESintomasCell">
                         <input type="checkbox" name="sinaisESintomas" id="">
@@ -267,10 +319,6 @@
                     <div class="sinaisESintomasCell">
                         <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Prurido na pele</label>
-                    </div>
-                    <div class="sinaisESintomasCell">
-                        <input type="checkbox" name="sinaisESintomas" id="">
-                        <label for="">Pupilas</label>
                     </div>
                     <div class="sinaisESintomasCell">
                         <input type="checkbox" name="sinaisESintomas" id="">
@@ -283,6 +331,39 @@
                     <div class="sinaisESintomasCell">
                         <input type="checkbox" name="sinaisESintomas" id="">
                         <label for="">Sinal de Guaxinim</label>
+                    </div>
+                    <div class="sinaisESintomasCell">
+                        <input type="checkbox" name="sinaisESintomas" id="" onchange="toggleHidden('hidden5')">
+                        <label for="">Pupilas</label>
+
+                        <div class="hidden" id="hidden5">
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoPupila" id="">
+                                <label for="">Anisocoria</label>
+                            </div>
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoPupila" id="">
+                                <label for="">Isocoria</label>
+                            </div>
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoPupila" id="">
+                                <label for="">Midriase</label>
+                            </div>
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoPupila" id="">
+                                <label for="">Miose</label>
+                            </div>
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoPupila" id="">
+                                <label for="">Reagente</label>
+                            </div>
+                            <div class="hiddenCell">
+                                <input type="radio" name="opcaoPupila" id="">
+                                <label for="">Não Reagente</label>
+                            </div>
+
+                            <div class="X" onclick="fecharHidden('hidden5')">❌</div>
+                        </div>
                     </div>
                     <div class="sinaisESintomasCell">
                         <input type="checkbox" name="sinaisESintomas" id="">

@@ -8,6 +8,22 @@ document.querySelector(".menu").onclick = () => {
     menuBurg.style.transition = ".5s cubic-bezier(.17,.67,.46,.97)";
 };
 
+function toggleHidden(divId) {
+    var div = document.getElementById(divId);
+
+    if (div) {
+        div.style.display = div.style.display === 'flex' ? 'none' : 'flex';
+    }
+}
+
+function fecharHidden(divId) {
+    var div = document.getElementById(divId);
+
+    if (div) {
+        div.style.display = 'none';
+    }
+}
+
 function toggleDiv(showDiv, checkboxId) {
     var showDivElem = document.querySelector('.' + showDiv);
     var checkboxElem = document.getElementById(checkboxId);

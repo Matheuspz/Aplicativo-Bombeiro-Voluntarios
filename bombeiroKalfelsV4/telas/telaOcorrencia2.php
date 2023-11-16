@@ -99,7 +99,8 @@
                         <label for="">Diabetes</label>
                     </div>
                     <div class="opcaoProblema">
-                        <label for="">Outro</label>
+                        <input type="checkbox" name="problemaSuspeito" id="">
+                        <label for="">Outro:</label>
                         <input type="text" name="" id="">
                     </div>
                 </div>

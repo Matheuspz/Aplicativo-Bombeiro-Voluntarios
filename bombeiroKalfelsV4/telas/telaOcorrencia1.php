@@ -50,11 +50,11 @@
                     <label for="">Sexo:</label>
                     <div class="sexoPaciente">
                         <div>
-                            <input type="radio" name="sexo" id="">
+                            <input type="radio" name="sexo" id="" value="Masculino">
                             <label for="">Masculino</label>
                         </div>
                         <div>
-                            <input type="radio" name="sexo" id="">
+                            <input type="radio" name="sexo" id="" value="Feminino">
                             <label for="">Feminino</label>
                         </div>
                     </div>
@@ -74,11 +74,11 @@
                 <div class="acompanhanteEscolha">
 
                     <div class="escolhaAcompanhante">
-                        <input type="radio" name="acompanhante" id="acompanhanteSim">
+                        <input type="radio" name="acompanhante" id="acompanhanteSim" value="Sim">
                         <label for="">Sim</label>
                     </div>
                     <div class="escolhaAcompanhante">
-                        <input type="radio" name="acompanhante" id="acompanhanteNao">
+                        <input type="radio" name="acompanhante" id="acompanhanteNao" value="Nao">
                         <label for="">Não</label>
                     </div>
 
@@ -101,107 +101,107 @@
                 <div class="lowerGrid">
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="CausadaPorAnimais">
                         <label for="">Causada por animais</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="Afogamento">
                         <label for="">Afogamento</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="Intoxicacao">
                         <label for="">Intoxicação</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="ComMeioDeTransporte">
                         <label for="">Com meio de transporte</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="Agressao">
                         <label for="">Agressão</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="QuedaBicicleta">
                         <label for="">Queda Bicicleta</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="DesmoronamentoDeslizamento">
                         <label for="">Desmoronamento / Deslizamento</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="Atropelamento">
                         <label for="">Atropelamento</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="QuedaMoto">
                         <label for="">Queda Moto</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="EmergenciaMedica">
                         <label for="">Emergência médica</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="ChoqueEletrico">
                         <label for="">Choque Elétrico</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="QuedaDeNivelMaiorQueDoisMetros">
                         <label for="">Queda Nível <2M </label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="QuedaDeAlturaDeDoisMetros">
                         <label for="">Queda de Altura 2M</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="Desabamento"> 
                         <label for="">Desabamento</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="Trabalho">
                         <label for="">Trabalho</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="TentaivaDeSuicidio">
                         <label for="">Tentativa de Suicídio</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="Domestico">
                         <label for="">Domêstico</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="Transferencia">
                         <label for="">Transferência</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="QuedaPropriaAltura">
                         <label for="">Queda própria altura</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="Esportiva">
                         <label for="">Esportiva</label>
                     </div>
 
                     <div class="tipoOcorrencia">
-                        <input type="radio" name="ocorrencia" id="">
+                        <input type="radio" name="tipoDaOcorrencia" id="" value="Outro">
                         <label for="">Outros</label>
                     </div>
 

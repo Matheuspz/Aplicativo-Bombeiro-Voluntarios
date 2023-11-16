@@ -303,7 +303,7 @@ main{
 	width: 20px;
 	aspect-ratio: 1;
 	top: -20px;
-	background: linear-gradient(to bottom left, #fff 50%, #09318B 50%);
+	background: linear-gradient(to bottom left, transparent 50%, #09318B 50%);
 	left: 0;
 }
 
@@ -347,7 +347,7 @@ main{
 	width: 20px;
 	aspect-ratio: 1;
 	top: -20px;
-	background: linear-gradient(to bottom left, #fff 50%, #09318B 50%);
+	background: linear-gradient(to bottom left, transparent 50%, #09318B 50%);
 	left: 0;
 }
 
