@@ -248,6 +248,27 @@ input[type="text"], input[type="number"]{
     padding-bottom: 50px;
 }
 
+.decisaoTransporteCell{
+    position: relative;
+}
+
+.decisaoTransporteCell input[type="radio"]{
+    position: absolute;
+    z-index: 1;
+    width: 125px;
+    aspect-ratio: 1;
+    border: 3px solid #000;
+}
+
+.decisaoTransporteCell input[type="radio"]:checked, .decisaoTransporteCell input[type="checkbox"]:checked {
+	background-color: rgba(19,134,44, .35); /* Mude a cor de fundo quando o input estiver marcado */
+	position: absolute;
+}
+
+.decisaoTransporteCell input[type="radio"]:checked::after, .decisaoTransporteCell input[type="checkbox"]:checked::after  {
+	font-size: 2rem;
+}
+
 .decisaoTransporteCell p{
     margin-top: 10px;
 }
@@ -255,7 +276,6 @@ input[type="text"], input[type="number"]{
 .decisaoTransporteCell img{
     width: 125px;
     aspect-ratio: 1;
-    border: 3px solid #000;
 }
 
 .aside2{

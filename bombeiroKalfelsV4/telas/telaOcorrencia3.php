@@ -34,6 +34,7 @@
                             x
                             <input type="number" name="" id="">
                         </div>
+                        <p>mmHg</p>
                     </div>
                     <div class="sinaisVitaisCell">
                         <label for="">Pulso:</label>
@@ -103,18 +104,22 @@
                 <h1>Decisão de Transporte</h1>
                 <div class="decisaoTransporteGrid">
                     <div class="decisaoTransporteCell">
+                        <input type="radio" name="decisaoDeTransporte" id="" value="Critico">
                         <img src="../img/critico.png">
                         <p>Crítico</p>
                     </div>
                     <div class="decisaoTransporteCell">
+                        <input type="radio" name="decisaoDeTransporte" id="" value="Instavel">
                         <img src="../img/instavel.png">
                         <p>Instável</p>
                     </div>
                     <div class="decisaoTransporteCell">
+                        <input type="radio" name="decisaoDeTransporte" id="" value="PotencialmenteInstavel">
                         <img src="../img/potencialmenteinstavel.png">
                         <p>Potencialmente instável</p>
                     </div>
                     <div class="decisaoTransporteCell">
+                        <input type="radio" name="decisaoDeTransporte" id="" value="Estavel">
                         <img src="../img/estavel.png">
                         <p>Estável</p>
                     </div>
