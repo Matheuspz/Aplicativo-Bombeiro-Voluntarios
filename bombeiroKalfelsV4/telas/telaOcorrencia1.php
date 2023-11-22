@@ -28,33 +28,33 @@
 
                 <div class="cadastroPaciente">
                     <label for="">Nome:</label>
-                    <input type="text">
+                    <input type="text" required>
                 </div>
 
                 <div class="cadastroPaciente">
                     <label for="">Sobrenome:</label>
-                    <input type="text">
+                    <input type="text" required>
                 </div>
 
                 <div class="cadastroPaciente">
                     <label for="">Idade:</label>
-                    <input type="number">
+                    <input type="number" required>
                 </div>
 
                 <div class="cadastroPaciente">
                     <label for="">Telefone:</label>
-                    <input type="text">
+                    <input type="text" required>
                 </div>
 
                 <div class="cadastroPaciente">
                     <label for="">Sexo:</label>
                     <div class="sexoPaciente">
                         <div>
-                            <input type="radio" name="sexo" id="" value="Masculino">
+                            <input type="radio" name="sexo" id="" value="Masculino" required>
                             <label for="">Masculino</label>
                         </div>
                         <div>
-                            <input type="radio" name="sexo" id="" value="Feminino">
+                            <input type="radio" name="sexo" id="" value="Feminino" required>
                             <label for="">Feminino</label>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
 
                 <div class="cadastroPaciente">
                     <label for="">CPF/RG:</label>
-                    <input type="text">
+                    <input type="text" required>
                 </div>
 
             </div>
@@ -74,11 +74,11 @@
                 <div class="acompanhanteEscolha">
 
                     <div class="escolhaAcompanhante">
-                        <input type="radio" name="acompanhante" id="acompanhanteSim" value="Sim">
+                        <input type="radio" name="acompanhante" id="acompanhanteSim" value="Sim" required>
                         <label for="">Sim</label>
                     </div>
                     <div class="escolhaAcompanhante">
-                        <input type="radio" name="acompanhante" id="acompanhanteNao" value="Nao">
+                        <input type="radio" name="acompanhante" id="acompanhanteNao" value="Nao" required>
                         <label for="">Não</label>
                     </div>
 
@@ -92,7 +92,7 @@
 
                 <div class="localOcorrencia">
                     <label for="">Local da ocorrência:</label>
-                    <input type="text" name="" id="">
+                    <input type="text" name="" id="" required>
                 </div>
             </aside>
             <aside class="rightAside">
@@ -202,7 +202,8 @@
 
                     <div class="tipoOcorrencia">
                         <input type="radio" name="tipoDaOcorrencia" id="" value="Outro">
-                        <label for="">Outros</label>
+                        <label for="">Outros:</label>
+                        <input type="text" name="tipoDaOcorrencia" id="">
                     </div>
 
                 </div>

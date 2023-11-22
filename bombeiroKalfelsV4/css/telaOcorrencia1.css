@@ -180,6 +180,10 @@ aside h2{
 	border-bottom: 1px solid #000;
 }
 
+input[type="text"]{
+	border-bottom: 1px solid #000;
+}
+
 .cadastroPaciente input, .sexoPaciente{
 	height: 30px;
 }
@@ -304,6 +308,9 @@ aside h2{
 	background-color: transparent;
 	border-radius: 5px;
 	transition: all .3s cubic-bezier(.17,.67,.65,.99);
+	position: absolute;
+	right: 80px;
+	bottom: 30px;
 }
 .btn:hover{
 	background-color: #07266D;
