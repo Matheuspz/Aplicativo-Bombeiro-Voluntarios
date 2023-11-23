@@ -1,0 +1,362 @@
+/* RESET */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: 'Poppins', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ESTILIZAÇÃO */
+
+:root{
+    --header-height: 120px;
+    --menuBurguer-height: 5px;
+    --menuBurguer-pseudo-top: calc(var(--menuBurguer-height) * -2);
+}
+
+body{
+	overflow-x: hidden;
+}
+
+/* HEADER */
+
+header{
+    height: var(--header-height);
+    background: linear-gradient(to bottom, #09318B 50%, #07266D 50%);
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+header img{
+    height: var(--header-height);
+}
+header h1{
+    font-size: 1.25rem;
+}
+header .cellphone{
+    display: none;
+}
+
+.menu{
+    position: relative;
+    width: 40px;
+    aspect-ratio: 1;
+    cursor: pointer;
+
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}        
+    
+.menu_burguer{
+    width: 100%;
+    height: var(--menuBurguer-height);
+    background-color: #fff;
+    border-radius: 5px;
+      
+    position: relative;
+}          
+.menu_burguer.open{
+    transform: rotate(-405deg);
+} 
+.menu_burguer.open:before{
+    display: none;
+}     
+.menu_burguer.open:after{
+    top: 0;
+    transform: rotate(90deg);
+}
+.menu_burguer:before{
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+    width: inherit;
+    
+    height: inherit;
+    top: var(--menuBurguer-pseudo-top);
+    background-color: inherit;
+} 
+.menu_burguer:after{
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+    width: inherit;
+    
+    height: inherit;
+    top: calc(var(--menuBurguer-pseudo-top) * -1);
+    background-color: inherit;
+}
+
+.hidden_nav{
+    position: absolute;
+    z-index: -1;
+    width: 120px;
+    aspect-ratio: 1/1.5;
+
+    display: none;
+    place-content: center;
+
+    right: -10px;
+    top: calc(var(--menuBurguer-height) - 10px);
+    background-color: #07266D;
+    border: 1px solid #09318B;
+}
+.hidden_nav.open{
+    display: grid;
+}
+.hidden_nav ul li a{
+    color: #fff;
+    font-size: 1.1rem;
+}  
+
+/* HEADER */
+
+/* MAIN */
+
+main{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	gap: 100px;
+	margin: 0px 80px;
+	margin-top: 80px;
+}
+
+aside h2{
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.upperSection{
+	width: 100%;
+}
+
+.upperGrid{
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 20px;
+}
+
+.cadastroPaciente{
+	display: flex;
+	flex-direction: column;
+}
+.cadastroPaciente input{
+	border-bottom: 1px solid #000;
+}
+
+input[type="text"]{
+	border-bottom: 1px solid #000;
+}
+
+.cadastroPaciente input, .sexoPaciente{
+	height: 30px;
+}
+
+.sexoPaciente{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+.sexoPaciente div{
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.middleSection{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.acompanhanteEscolha{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 30px 0;
+}
+
+.hiddenAcompanhanteDiv{
+	position: absolute;
+	background-color: #09318B;
+	padding: 10px 15px 20px 15px;
+	bottom: 100%;
+	display: none;
+	flex-direction: column;
+	row-gap: 8px;
+}
+
+.hiddenAcompanhanteDiv input{
+	background-color: transparent;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.hiddenAcompanhanteDiv input::placeholder{
+	color: #fff;
+	opacity: .5;
+}
+
+.hiddenAcompanhanteDiv::after{
+	content: '';
+	position: absolute;
+	width: 20px;
+	aspect-ratio: 1;
+	bottom: -20px;
+	background: linear-gradient(to top left, #fff 50%, #09318B 50%);
+	left: 0;
+}
+
+.localOcorrencia{
+	display: flex;
+	flex-direction: column;
+}
+.localOcorrencia input{
+	border-bottom: 1px solid #000;
+}
+
+.rightAside{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.lowerGrid{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
+
+.tipoOcorrencia{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+}
+
+.tipoOcorrencia input[type="radio"] {
+	width: 20px; /* Define a largura do quadrado */
+	aspect-ratio: 1;
+	-webkit-appearance: none; /* Remove a aparência padrão do navegador */
+	appearance: none;
+	border: 1px solid #000; /* Define uma borda preta ao redor do quadrado */
+	border-radius: 5px; /* Remove o arredondamento dos cantos */
+}
+
+.tipoOcorrencia input[type="radio"]:checked {
+	background-color: #13862c; /* Mude a cor de fundo quando o input estiver marcado */
+	position: relative;
+}
+.tipoOcorrencia input[type="radio"]:checked::after {
+	content: '✔️';
+	position: absolute;
+	inset: 0;
+	display: grid;
+	place-content: center;
+}
+
+.lowerSection{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.btn{
+	width: 200px;
+	height: 80px;
+	border: 1px solid #07266D;
+	background-color: transparent;
+	border-radius: 5px;
+	transition: all .3s cubic-bezier(.17,.67,.65,.99);
+	position: absolute;
+	right: 80px;
+	bottom: 30px;
+}
+.btn:hover{
+	background-color: #07266D;
+	color: #fff;
+}
+
+@media screen and (max-width: 840px){
+    header h1{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    header h1{
+        display: none;
+    }
+    header .cellphone{
+        display: block;
+        font-size: 1.5rem;
+    }
+
+	.upperGrid{
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.middleSection{
+		flex-direction: column;
+		gap: 50px;
+	}
+
+	.lowerGrid{
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.lowerSection{
+		justify-content: center;
+		align-items: center;
+	}
+
+	.btn{
+		height: 60px;
+		margin-bottom: 120px;
+	}
+
+	main{
+		margin: 0 30px;
+		margin-top: 50px;
+	}
+}
